@@ -24,6 +24,7 @@ function App() {
         <Route exact path="/towns/Riverside" element={<RiversidePage />} />
 
         <Route exact path="/towns/Irvine" element={<IrvinePage />} />
+        <Route exact path="/towns/ArroyoGrande" element={<ArroyoGrandePage />} />
 
       </Routes>
     </BrowserRouter>
