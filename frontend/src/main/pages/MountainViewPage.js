@@ -4,7 +4,7 @@ export default function MountainViewPage() {
   return (
     <BasicLayout>
       <div className="pt-2">
-        <h1>Irvine, CA</h1>
+        <h1>Mountain View, CA</h1>
         <p>
           <b>Mountain View, California</b> is a city in Santa Clara County, California.
           Despite the ubiquitous greenery and tranquil suburban environment, Mountain View 
