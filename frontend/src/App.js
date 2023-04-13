@@ -8,7 +8,11 @@ import SanLuisObispoPage from "main/pages/SanLuisObispoPage";
 import RiversidePage from "main/pages/RiversidePage";
 
 import IrvinePage from "main/pages/IrvinePage";
+
+import SanFranciscoPage from "main/pages/SanFranciscoPage";
+
 import SacramentoPage from "main/pages/SacramentoPage";
+
 
 
 import "bootstrap/dist/css/bootstrap.css";
@@ -28,7 +32,11 @@ function App() {
         <Route exact path="/towns/SanLuisObispo" element={<SanLuisObispoPage />} />
         <Route exact path="/towns/Riverside" element={<RiversidePage />} />
         <Route exact path="/towns/Irvine" element={<IrvinePage />} />
+
+	<Route exact path="/towns/SanFrancisco" element={<SanFranciscoPage />} />
+
         <Route exact path="/towns/Sacramento" element={<SacramentoPage />} />
+
       </Routes>
     </BrowserRouter>
   );
