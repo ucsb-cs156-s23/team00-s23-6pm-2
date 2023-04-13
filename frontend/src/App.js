@@ -16,6 +16,7 @@ import SacramentoPage from "main/pages/SacramentoPage";
 
 
 import "bootstrap/dist/css/bootstrap.css";
+import MountainViewPage from "main/pages/MountainViewPage";
 
 
 function App() {
@@ -32,11 +33,13 @@ function App() {
         <Route exact path="/towns/SanLuisObispo" element={<SanLuisObispoPage />} />
         <Route exact path="/towns/Riverside" element={<RiversidePage />} />
         <Route exact path="/towns/Irvine" element={<IrvinePage />} />
+        <Route exact path="/towns/MountainView" element = {<MountainViewPage />} />
+
 
 	<Route exact path="/towns/SanFrancisco" element={<SanFranciscoPage />} />
 
-        <Route exact path="/towns/Sacramento" element={<SacramentoPage />} />
 
+        <Route exact path="/towns/Sacramento" element={<SacramentoPage />} />
       </Routes>
     </BrowserRouter>
   );
