@@ -11,7 +11,7 @@ export default function IrvinePage() {
           a giant, anchored helium balloon. Visitors can ride the balloon up for
           aerial views. Trails wind past ancient sycamore trees in Bommer Canyon.
         </p>
-        <p>Added by Phill C.</p>
+        <p>Added by Christopher C.</p>
       </div>
     </BasicLayout>
   )
